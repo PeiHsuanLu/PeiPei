@@ -88,11 +88,13 @@ ul ol li { list-style: none inherit inherit;}
 .Area960 .bt05  {position:absolute; width: 30%; top:-18vw; left:35vw; z-index: 99}
 
 /*°Ï¶ô*/
-#mintro { z-index:7; background: url(https://i.imgur.com/LOCHvVL.jpg) fixed #ff7150;
+#mintro {
+    background-image: url("https://i.imgur.com/LOCHvVL.jpg");
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size:100% 100%;
-	background-position:center top;  
-	height:150vw;}
+    background-size: cover;
+	height: 150vw;}
 
 #msecond { z-index:7; background: url(m_dog1.png) fixed #feffc2;
     background-repeat: no-repeat;
