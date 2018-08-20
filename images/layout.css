@@ -1,0 +1,160 @@
+@charset "big5";
+html { -webkit-text-size-adjust:none; }
+body { margin: 0; padding: 0; background-color:#fff6d3;}
+h1, h2, h3, h4, h5, h6, p { margin:0; padding:0; border:0; font-weight: normal;}
+ul ol li { list-style: none inherit inherit;}
+
+.for_pc { display:block !important;}
+.for_m  { display:none !important;}
+	@media screen and (max-width:767px){ 
+		.for_pc { display:none !important;}
+		.for_m  { display:block !important;}
+		.mainArea{ display:block;}
+	}
+
+/*PC*/
+/*Á`Äý*/
+.Area { position:relative; margin: 0 auto; padding: 0; overflow:hidden; width:100%; min-width:1220px; color: white; background-position:center top;}
+.AA01{ position:absolute; top:0; left:50%; -webkit-transform:translateX(-50%); transform:translateX(-50%); }
+
+
+/*«ö¶s*/
+.Area1220 { position:relative; margin:0 auto; width:1220px;}
+.Area1220 .bt01  {position: absolute; top:557px; left:435px; z-index: 99}
+.Area1220 .bt02  {position: absolute; top:-26px; left: 460px;  z-index:99;}
+.Area1220 .bt03  {position: absolute; top:-236px; left:330px; z-index: 99}
+.Area1220 .bt04  {position: absolute; top:-130px; left:330px;  z-index:99;}
+.Area1220 .bt05  {position: absolute; top:-90px; left:530px;  z-index:99;}
+.btn_off:hover { -webkit-transform:scale(0.95); -moz-transform:scale(0.95); -ms-transform:scale(0.95); -o-transform:scale(0.95); 			transform:scale(0.95);}
+
+
+/*¾ÉÄý¦C*/
+#header { position: fixed; z-index: 10000; left: 0px;  bottom: 0px; width: 100%; height: 60px; line-height: 50px;  background:#76bc5e}
+#header .box { position:relative; margin:0 auto; width:100%; max-width:1220px;}
+#nav {position: absolute; top: 0; margin: 0 auto; height: 20px; line-height:20px;}
+#nav ul { margin-top: -25px; margin-left: 380px;}
+#nav ul li { display: inline-block; margin-left: 0.5em; font-size: 1.2em;}
+#nav ul li a { display: block; color: #067d57; text-decoration: none; height: 3em; line-height: 2em; padding: 0 0.5em 0 0.5em; outline: 0;}
+
+
+/*°Ï¶ô*/
+#intro{z-index:7;background: url(resume_PC_01.jpg) 100% 0 no-repeat fixed #ff7150; background-position:center top; height:975px;}
+
+#second{z-index:7;background:url(dog.gif) 100% 0 no-repeat fixed #feffc2; background-position:center top; height: 1943px;}
+
+#third{z-index:5; background:#ff7150; background-position:center top; height: 811px;}
+
+#four{z-index:5; background:#ff7150; background-position:center top; height: 735px;;}
+
+#fifth{ z-index:5; background:#ff7150; background-position:center top; height: 439px;}
+
+#sixth{z-index:5;background:#ff7150; background-position:center top; height: 575px;}
+
+#seventh{z-index:7;background:url(dog1.png) 100% 0 no-repeat fixed #feffc2; background-position:center top; height: 659px;}
+
+#eighth{z-index:5;background:#049ce3; background-position:center top; height: 1543px;}
+
+#ninth{z-index:5;background:#009966; background-position:center top; height: 1936px;}
+
+#tenth{z-index:5;background:#e23b3b; background-position:center top; height: 2593px;}
+
+#eleventh{z-index:5;background:#ffa800; background-position:center top; height: 630px;}
+
+#twelveth{z-index:5;background:url(dog1.png) 100% 0 no-repeat fixed #feffc2; background-position:center top; height: 716px;}
+
+#thirth {z-index:7;background:#feffc2; background-position:center top; height: 400px;}
+
+
+/*MB*/
+.mmArea { position:relative; margin: 0 auto; padding: 0; overflow:hidden; width:100%; min-width:100%; color: white; background-position:center top;}
+.mAA01{ position:absolute; left:50%; -webkit-transform:translateX(-50%); transform:translateX(-50%); }
+.mo img{ width:100%; height:auto;}
+
+/*¾ÉÄý¦C*/
+#mheader { position: fixed; z-index: 10000; left: 0;  bottom: 0; width: 100%; height: 10vw; line-height:15vw;  background:#76bc5e}
+#mheader .mbox { position:relative; margin:-17vw 0 0 0; width:100%; max-width: 100%}
+#mnav {position: absolute; top: 0; margin: 0 auto; height: 20px; line-height:20px;}
+#mnav ul { } 
+#mnav ul li { display: inline-block; width: 40%; padding:0 0 0 8%;}
+#mnav ul li a { display: block; color: #067d57; text-decoration: none; height: 3em; line-height: 2em; padding: 0 0.5em 0 0.5em; outline: 0;}
+
+
+/*«ö¶s*/
+.Area960 { position:relative; margin:0 auto; width:100%;}
+.Area960 .bt01  {position:absolute; width: 52%; top:90vw; left:24vw; z-index: 99}
+.Area960 .bt02  {position:absolute; width: 52%; top:-5vw; left:24vw; z-index: 99}
+.Area960 .bt03  {position:absolute; width: 96%; top:-39vw; left:2vw; z-index: 99}
+.Area960 .bt04  {position:absolute; width: 96%; top:-22vw; left:2vw; z-index: 99}
+.Area960 .bt05  {position:absolute; width: 30%; top:-18vw; left:35vw; z-index: 99}
+
+/*°Ï¶ô*/
+#mintro { z-index:7; background: url(m_resume_01.jpg) fixed #ff7150;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+	background-position:center top;  
+	height:150vw;}
+
+#msecond { z-index:7; background: url(m_dog1.png) fixed #feffc2;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center top;  
+	height:331vw;}
+
+
+#mthird { z-index:7; background:#ff7150;
+    background-size:100% 100%;
+	background-position:center top;  
+	height:137vw;}
+
+#mfour { z-index:7; background:#ff7150;
+    background-size:100% 100%;
+	background-position:center top;  
+	height:126vw;}
+
+#mfifth { z-index:7; background:#ff7150;
+    background-size:100% 100%;
+	background-position:center top;  
+	height:75vw;}
+
+#msixth { z-index:7; background:#ff7150;
+    background-size:100% 100%;
+	background-position:center top;  
+	height:100vw;}
+
+#mseventh { z-index:7; background:url(m_cat1.png) fixed #feffc2;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center top;  
+	height:116vw;}
+
+#meighth { z-index:7; background:#049ce3;
+	background-size: cover;
+	background-position:center top;  
+	height:268vw;}
+
+#mninth { z-index:7; background:#009966;
+	background-size: cover;
+	background-position:center top;  
+	height:330vw;}
+
+#mtenth { z-index:7; background:#e23b3b;
+	background-size: cover;
+	background-position:center top;  
+	height:441vw;}
+
+#meleventh { z-index:7; background:#ffa800;
+	background-size: cover;
+	background-position:center top;  
+	height:110vw;}
+
+#mtwelveth { z-index:7; background:url(m_dog1.png) fixed #feffc2;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center top;  
+	height:126vw;}
+
+#mthirth { z-index:7; background:#feffc2;
+	background-size: cover;
+	background-position:center top;  
+	height:72vw;}
+
