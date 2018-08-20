@@ -90,7 +90,7 @@ ul ol li { list-style: none inherit inherit;}
 /*°Ï¶ô*/
 #mintro {
     background-image: url("https://i.imgur.com/LOCHvVL.jpg");
-    background-attachment: fixed;
+    background-attachment: absolute;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover }
